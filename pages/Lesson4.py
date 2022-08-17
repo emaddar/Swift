@@ -28,8 +28,9 @@ The assignment operator (a = b) initializes or updates the value of `a` with the
 
 """)
 code = """
-var WelcomeMsg : String
-WelcomeMsg = "Hello"
+let b = 7 
+var a = 42 
+a = b // a is now equal to 7
 """
 
 st.code(code, language='swift')
