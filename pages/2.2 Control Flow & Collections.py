@@ -7,7 +7,7 @@ st.set_page_config(
 )
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>Lesson 2.</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'>Lesson 2.2</h1>", unsafe_allow_html=True)
 
 st.markdown("""
 # The while Loop
