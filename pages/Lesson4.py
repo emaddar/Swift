@@ -21,6 +21,11 @@ Operators are unary, binary, or ternary:
 - **Ternary** Operator: Has three targets. Like C, **_Swift has one ternary operator_**, the ternary conditional operator (a ? b : c).
 
 The values targeted by operators are called operands. In the expression 1 + 2, the + symbol is a binary operator; its two operands are the values 1 and 2.
+
+
+### Assignment Operator
+The assignment operator (a = b) initializes or updates the value of `a` with the value of `b`
+
 """)
 code = """
 var WelcomeMsg : String
