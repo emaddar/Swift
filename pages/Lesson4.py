@@ -42,13 +42,11 @@ st.markdown("""
 
 Swift supports the four standard arithmetic operators for all number types:
 
+##### Addition (+)
 
-
-It's possible to define multiple related variables of the same type. Include them all on a single line, separated by commas, then add a single type annotation after the final variable name:
 """)
 code = """
-a = 88
-var red, green, blue: Double
+1+2 // equals 3
 """
 
 st.code(code, language='swift')
