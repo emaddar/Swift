@@ -7,7 +7,7 @@ st.set_page_config(
 )
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>Lesson 1.7</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'>Lesson 2.1</h1>", unsafe_allow_html=True)
 
 st.markdown("""
 # Conditional Statements
