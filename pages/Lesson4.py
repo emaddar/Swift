@@ -38,7 +38,10 @@ st.code(code, language='swift')
 
 
 st.markdown("""
-This example provides a type annotation for a variable called "welcomeMsg", that indicates that the variable can store **String** values.
+### Arithmetic Operators
+
+Swift supports the four standard arithmetic operators for all number types:
+
 
 
 It's possible to define multiple related variables of the same type. Include them all on a single line, separated by commas, then add a single type annotation after the final variable name:
