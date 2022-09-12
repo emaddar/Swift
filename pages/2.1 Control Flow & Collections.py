@@ -78,6 +78,10 @@ st.code(code, language='swift')
 
 
 
+
+
+
+
 st.markdown("""
 ### The switch Statement
 
@@ -153,16 +157,22 @@ Every switch statement must be exhaustive, i.e. take every possible value into c
 In cases in which it is not appropriate to provide a switch case for every possible value, 
 you can define a **default** catch-all case to cover any values that are not explicitly addressed. 
 Indicate the catch-all case by using the keyword **default**. This always appears last.
+
+
+### The ternary operator
+The ternary operator is a condition plus true or false blocks all in one, split up by a question mark and a colon, all of which which makes it rather hard to read. Here’s an example:
 """)
 
+code = """
+let firstCard = 11
+let secondCard = 10
+print(firstCard == secondCard ? "Cards are the same" : "Cards are different")
+"""
 
 
 
 
-
-
-
-
+st.code(code, language='swift')
 
 
 

@@ -28,7 +28,20 @@ page_names_to_funcs = {
 
 st.markdown("<h1 style='text-align: center; color: black;'>Welcome to Swift!</h1>", unsafe_allow_html=True)
 st.markdown("""
-Swift combines the best of `C` and `Objective-C`.
+Swift (2014) is an open source combines the best of `C` and `Objective-C`.
 
 It's ideal for creating new apps and works seamlessly with `Objective-C`, so it's compatible with apps previously created in that language.
+
+Swift is a **save** language :
+- Explicit object "type"
+- Type inference
+- Optionals
+- Error hanling
+
+
+#### Playfround
+- Open `Xcode``
+- Choose iOS, select the Blank template and click Next
+- Choose a name
+- Click create
 """)

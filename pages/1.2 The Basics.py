@@ -50,7 +50,7 @@ st.code(code, language='swift')
 
 st.markdown("""
 ### Constants
-Declare a constant using the **let** keyword.
+Declare a constant using the `let` keyword.
 
 This example declares a constant named "one" and assigns it a value of 1:
 """)
