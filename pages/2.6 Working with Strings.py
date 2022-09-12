@@ -7,8 +7,6 @@ st.set_page_config(
 )
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>Lesson 2.6</h1>", unsafe_allow_html=True)
-
 st.markdown("""
 # Working with Strings
 
@@ -94,4 +92,99 @@ print("somString has \(someString.count) charachters")
 
 st.code(code, language='swift')
 
+
+
+st.markdown("""
+## Changing Case
+### uppercased
+Returns an uppercase version of the string
+""")
+code = """
+let phrase = "cat and dog"
+let upper = phrase.uppercased()
+print(upper) // CAT AND DOG
+"""
+st.code(code, language='swift')
+
+
+st.markdown("""
+### lowercased
+Returns a lowercase version of the string
+""")
+code = """
+let lower = phrase.lowercase()
+print(lower) // cat and dog
+"""
+st.code(code, language='swift')
+
+
+
+st.markdown("""
+### Capitalized
+This method changes word-starting characters in a string. It uppercases letters after spaces and other punctuation chars.
+""")
+code = """
+let phrase = "antarctica, asia, africa"
+let upperFirst = phrase.capitalized
+print(upperFirst) // Antarctica, Asia, Africa
+"""
+st.code(code, language='swift')
+
+
+st.markdown("""
+### Finding Substrings
+#### hasPrefix()
+The `hasPrefix()` method returns: 
+- **true** if the string begins with the given string. 
+- **false** if the string doesn't begin with the given string.
+""")
+code = """
+// Create strings 
+let str1 = "Edpresso is the best"
+let str2 = "Best place to be"
+let str3 = "Learn all you need"
+
+// Check if the following prefixes exist
+print(str1.hasPrefix("Edpresso"))  // true
+print(str2.hasPrefix("great"))  // false
+print(str3.hasPrefix("Learn")) // true
+"""
+st.code(code, language='swift')
+
+
+
+
+
+
+
+st.markdown("""
+#### hasSuffix()
+The `hasSuffix()` method returns:
+- **true** if the string ends with the given string
+- **false** if the string doesn't end with the given string
+""")
+code = """
+// Create strings 
+var str = "Swift Programming"
+
+print(str.hasSuffix("ing")) // true
+print(str.hasSuffix("g")) // true
+print(str.hasSuffix("Programming")) // true
+
+print(str.hasSuffix("programming")) // false
+print(str.hasSuffix("min")) // false
+"""
+st.code(code, language='swift')
+
+
+st.markdown("""
+#### contains()
+Returns a Boolean value indicating whether a sequence or string contains the given element.
+""")
+code = """
+var str = "swift@apple.com"
+
+print(str.contains("@apple")) // true
+"""
+st.code(code, language='swift')
 

@@ -7,8 +7,6 @@ st.set_page_config(
 )
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>Lesson 2.1</h1>", unsafe_allow_html=True)
-
 st.markdown("""
 # Conditional Statements
 
@@ -190,32 +188,3 @@ st.code(code, language='swift')
 
 
 
-
-st.markdown("""
-### Where
-
-The **where** clause checks for additional conditions.
-""")
-code = """
-let yetAnotherPoint = (1, -1)
-switch yetAnotherPoint {
-case let (x, y) where x == y:
-    print("(\(x), \(y)) is on the line x == y")
-case let (x, y) where x == -y:
-    print("(\(x), \(y)) is on the line x == -y")
-case let (x, y):
-    print("(\(x), \(y)) is just some arbitrary point")
-}
-// Prints "(1, -1) is on the line x == -y"
-"""
-
-st.code(code, language='swift')
-
-
-
-st.markdown(r"""
-The three switch cases declare placeholder constants x and y, which temporarily take on the two values from myPoint, creating a dynamic filter as part of a where clause. The switch case matches the current value of point only if the where clause's condition evaluates to true for that value.
-
-The final case matches all possible remaining values; 
-a default case is not necessary to have an exhaustive switch statement.
-""")

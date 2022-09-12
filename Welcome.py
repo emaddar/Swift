@@ -27,8 +27,10 @@ page_names_to_funcs = {
 
 
 st.markdown("<h1 style='text-align: center; color: black;'>Welcome to Swift!</h1>", unsafe_allow_html=True)
+st.image("https://cdn.arstechnica.net/wp-content/uploads/2015/06/swift-federighi.jpg")
+
 st.markdown("""
-Swift (2014) is an open source combines the best of `C` and `Objective-C`.
+Swift (introduced at Apple's 2014 Worldwide Developers Conference) is an open source combines the best of `C` and `Objective-C`.
 
 It's ideal for creating new apps and works seamlessly with `Objective-C`, so it's compatible with apps previously created in that language.
 
@@ -40,8 +42,8 @@ Swift is a **save** language :
 
 
 #### Playfround
-- Open `Xcode``
-- Choose iOS, select the Blank template and click Next
+- Open **Xcode**
+- Choose **iOS**, select the **Blank template** and click Next
 - Choose a name
 - Click create
 """)

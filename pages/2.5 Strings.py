@@ -7,8 +7,6 @@ st.set_page_config(
 )
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>Lesson 2.5</h1>", unsafe_allow_html=True)
-
 st.markdown("""
 # Strings
 
@@ -29,10 +27,22 @@ Because it is initialized with a string literal value, Swift infers a type of St
 
 
 
+st.markdown("""
+Multiline string literals are enclosed in three double quotation marks (\"\"\"):
+""")
 
-
-
-
+code = """
+let banner = \"\"\"
+          __,
+         (           o  /) _/_
+          `.  , , , ,  //  /
+        (___)(_(_/_(_ //_ (__
+                     /)
+                    (/
+        \"\"\"
+print(banner)
+"""
+st.code(code, language='swift')
 
 
 
@@ -63,3 +73,4 @@ if emptyString.isEmpty {
 }
 """
 st.code(code, language='swift')
+

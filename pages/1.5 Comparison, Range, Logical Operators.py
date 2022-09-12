@@ -7,8 +7,6 @@ st.set_page_config(
 )
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>Lesson 5</h1>", unsafe_allow_html=True)
-
 st.markdown("""
 # Comparison Operators
 Swift supports all of the standard comparison operators in C:
@@ -49,23 +47,6 @@ Swift also provides two identity operators, `===` and `!==`, which test whether 
 
 
 
-
-st.markdown("""
-# Ternary Conditional Operator
-The ternary conditional operator is a special operator with three parts, taking the form **(question ? answer1 : answer2)**.
-
-This operator acts as a shortcut in evaluating one of two expressions, based on whether the question is true or false. For a true question, it evaluates **answer1** and returns its value; otherwise, it evaluates **answer2** and returns its value.
-""")
-
-code = """
-gender == ? print("male") : print("female")
-"""
-
-st.code(code, language='swift')
-
-st.markdown("""
-The example above will evaluate the expression **gender == 0**. If true, it prints "male". Otherwise, it prints "female".
-""")
 
 
 
@@ -137,10 +118,10 @@ st.markdown("""
 Logical operators modify or combine the Boolean logic values **true** and **false**.
  Swift supports the three standard logical operators found in C-based languages:
 
-- Logical **NOT** operator (!a): Inverts a Boolean value so that true becomes false and false becomes true.
+- Logical **NOT** operator (`!a`): Inverts a Boolean value so that true becomes false and false becomes true.
 
-- Logical **AND** operator (a && b): Creates logical expressions in which both values must be true for the overall expression to be true.
+- Logical **AND** operator (`a && b`): Creates logical expressions in which both values must be true for the overall expression to be true.
 
-- Logical **OR** operator (a || b): An infixed operator made from two adjacent pipe characters. It creates logical expressions
+- Logical **OR** operator (`a || b`): An infixed operator made from two adjacent pipe characters. It creates logical expressions
  in which only one of the two values has to be true for the overall expression to be true.
 """)

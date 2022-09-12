@@ -8,20 +8,10 @@ st.set_page_config(
 )
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>Lesson 4</h1>", unsafe_allow_html=True)
-
 st.markdown("""
 # Basic Operators
 
 An **operator** is a special symbol or phrase used to check, change, or combine values.
-
-Operators are unary, binary, or ternary:
-- **Unary** Operator: Has a single target (-a). A unary prefix operator is placed before the target (!b).
-- **Binary** Operator: Has two targets (4 + 5) and is infixed, appearing between the two targets.
-- **Ternary** Operator: Has three targets. Like C, **_Swift has one ternary operator_**, the ternary conditional operator (a ? b : c).
-
-The values targeted by operators are called operands. In the expression 1 + 2, the + symbol is a binary operator; its two operands are the values 1 and 2.
-
 
 ### Assignment Operator
 The assignment operator (a = b) initializes or updates the value of `a` with the value of `b`
@@ -135,5 +125,5 @@ st.code(code, language='swift')
 
 st.markdown(r"""
 The expression a += 2 is shorthand for a = a + 2. The addition and the assignment are combined into one operator that performs both tasks at the same time.
-Similarly, there are shorthand operators for other arithmetic operations.
+**Similarly, there are shorthand operators for other arithmetic operations.**
 """)

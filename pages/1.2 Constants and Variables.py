@@ -8,8 +8,6 @@ st.set_page_config(
 )
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>Lesson 2</h1>", unsafe_allow_html=True)
-
 st.markdown("""
 # Constants and Variables
 Constants and variables are used to associate a name (yourName or welcomeMessage) with a value (the number 42 or the string "Hi!").

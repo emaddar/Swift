@@ -9,15 +9,9 @@ st.set_page_config(
 )
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>Lesson 1</h1>", unsafe_allow_html=True)
-st.markdown("""
-Swift combines the best of `C` and `Objective-C`.
-
-It's ideal for creating new apps and works seamlessly with `Objective-C`, so it's compatible with apps previously created in that language.
-""")
 
 st.markdown("""
-# "Hello World"
+# "Hello, World!"
 Printing text is easy:
 """)
 code = """

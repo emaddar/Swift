@@ -8,8 +8,6 @@ st.set_page_config(
 )
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>Lesson 3</h1>", unsafe_allow_html=True)
-
 st.markdown("""
 # Type Annotations
 **Type annotations** ensure that your code is clear about the value stored within your constant or variable. Swift's basic types include:
@@ -28,6 +26,15 @@ WelcomeMsg = "Hello"
 
 st.code(code, language='swift')
 
+
+
+st.markdown("""
+Or """)
+code = """
+var WelcomeMsg : String = "Hello"
+"""
+
+st.code(code, language='swift')
 
 
 st.markdown("""
